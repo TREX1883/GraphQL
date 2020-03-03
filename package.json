@@ -1,0 +1,25 @@
+{
+  "name": "javascript-graphql",
+  "scripts": {
+    "seed": "node -r esm prisma/seed",
+    "dev": "npx prisma2 studio --experimental",
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "2.0.0-preview022",
+    "graphql": "14.6.0",
+    "graphql-tools": "4.0.7",
+    "graphql-yoga": "1.18.3"
+  },
+  "devDependencies": {
+    "prisma2": "2.0.0-preview022"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
