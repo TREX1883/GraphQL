@@ -154,7 +154,6 @@ mutation {
 </Details>
 
 
-
 ## Evolving the app
 
 Evolving the application typically requires four subsequent steps:
