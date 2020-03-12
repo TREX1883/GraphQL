@@ -4,7 +4,7 @@ import fs from 'fs'
 const PrismaClient = new PrismaClient()
 
 const uvu_courses = fs.readFileSync('prisma/example_files/uvu_courses.json')
-
+//insert new MTG API there
 function loadUVUCourses() {
     const catalog = JSON.parse(uvu_courses)
     const allCourses = catalog.comet.allCourses
