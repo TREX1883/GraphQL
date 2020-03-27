@@ -9,7 +9,6 @@ type User {
   posts: [Post!]!
 }
 
-
 type Post {
   author: User
   content: String
